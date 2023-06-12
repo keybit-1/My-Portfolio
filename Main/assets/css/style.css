@@ -4,11 +4,11 @@
 
 /* brand color palette */
 :root {
-  --primary: rgb(44, 36, 36);
-  --secondary: rgb(37, 43, 48);
-  --tertiary: rgb(0, 255, 21);
-  --dark: rgb(0, 0, 0);
-  --light: rgba(65, 65, 65, 0.726);
+  --primary: rgba(43, 128, 255, 0.801);
+  --secondary: rgb(0, 0, 0);
+  --tertiary: rgba(0, 255, 13, 0.842);
+  --dark: rgb(2, 2, 2);
+  --light: rgb(0, 0, 0);
 }
 
 body {
@@ -29,9 +29,23 @@ h2 {
   font-family: monospace;
 }
 
-h3,
-h4,
-h5,
+h3 {
+  margin: 0;
+  font-family: monospace;
+}
+
+h4 {
+  margin: 0;
+  font-family: monospace;
+}
+h5 {
+  margin: 0;
+  font-family: monospace;
+}
+
+
+
+
 h6 {
   margin: 0;
 }
@@ -97,7 +111,8 @@ main {
 }
 
 .hero-banner {
-  background: rgb(68, 88, 120);
+  font-family: monospace;
+  background: rgb(0, 0, 0);
   background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   background-position: center;
@@ -132,6 +147,7 @@ main {
 }
 
 .page-section {
+  font-family: monospace;
   margin: 25px 0;
   padding: 10px 0;
   display: flex;
@@ -260,6 +276,7 @@ main {
   }
 
   header h1 {
+    font-family: monospace;
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
