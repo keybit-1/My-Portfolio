@@ -4,11 +4,11 @@
 
 /* brand color palette */
 :root {
-  --primary: rgba(43, 128, 255, 0.801);
-  --secondary: rgb(0, 0, 0);
-  --tertiary: rgba(0, 255, 13, 0.842);
-  --dark: rgb(2, 2, 2);
-  --light: rgb(0, 0, 0);
+  --primary: rgba(255, 255, 255, 0.801);
+  --secondary: rgb(34, 34, 34);
+  --tertiary: rgba(104, 103, 103, 0.842);
+  --dark: rgb(0, 0, 0);
+  --light: rgb(19, 19, 19);
 }
 
 body {
@@ -113,7 +113,7 @@ main {
 .hero-banner {
   font-family: monospace;
   background: rgba(0, 0, 0, 0);
-  background-image: url("../images/02-newhero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-image: url("../images/02-newher03-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   background-position: center;
   /* background-blend-mode: soft-light; */
@@ -182,7 +182,7 @@ main {
 
 .flex-item {
   border: 5px solid var(--secondary);
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
   color: var(--tertiary);
   min-height: 150px;
   max-height: 150px;
@@ -251,11 +251,11 @@ main {
 } */
 
 .led-wall {
-  background-image: url("../images/02-portfolio-5.jpg");
+  background-image: url("../images/02-portfolio-2.jpg");
 }
 
 .react-calc {
-  background-image: url("../images/02-portfolio-2.jpg");
+  background-image: url("");
 }
 
 /* .pastel-puzzles {
@@ -263,7 +263,7 @@ main {
 } */
 
 .surf-report {
-  background-image: url("../images/02-avatar-1.jpg");
+  background-image: url("../images/02-avatar-6.jpg");
 }
 
 /* end portfolio project images */
