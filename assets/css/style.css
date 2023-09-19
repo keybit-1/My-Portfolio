@@ -258,9 +258,9 @@ main {
   background-image: url("../images/02-hero-bg.jpg");
 }
 
-/* .pastel-puzzles {
-  background-image: url("../images/02-portfolio-3.jpg");
-} */
+.pastel-puzzles {
+  background-image: url("../images/02-hero-bg.jpg");
+}
 
 .surf-report {
   background-image: url("../images/02-avatar-6.jpg");
